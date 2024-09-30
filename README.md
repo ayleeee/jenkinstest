@@ -110,3 +110,10 @@ docker exec -u root -it myjenkins /bin/bash <br>
 chown -R jenkins:jenkins /var/jenkins_home/appjar
 
 </aside>
+
+---
+
+## Ngrok으로 Jenkins 접속
+[1] https://ngrok.com/download 사이트 접속해서 다운로드
+[2] `ngrok http http://ip addr:port` 
+[3] 화면의 forwarding 주소를 깃허브 레파지토리 웹 훅에 저장
