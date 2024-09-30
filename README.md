@@ -116,4 +116,5 @@ chown -R jenkins:jenkins /var/jenkins_home/appjar
 ## Ngrok으로 Jenkins 접속
 [1] https://ngrok.com/download 사이트 접속해서 다운로드<br>
 [2] `ngrok http http://ip addr:port` <br>
-[3] 화면의 forwarding 주소를 깃허브 레파지토리 웹 훅에 저장<br>
+[3] 화면의 forwarding 주소를 깃허브 레파지토리 웹훅에 저장<br>
+❓ <i>웹훅</i> : 데이터가 변경되었을 때 실시간으로 알림을 받을 수 있는 기능 
