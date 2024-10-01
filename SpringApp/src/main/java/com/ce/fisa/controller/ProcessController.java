@@ -12,6 +12,6 @@ public class ProcessController {
 	@GetMapping("/test")
 	public String reqRes() {
 		log.info("요청 수락 ~~~");
-		return "<변경> linux 서버에서 실행되는 중";
+		return "<변경22> linux 서버에서 실행되는 중";
 	}
 }
